@@ -1,0 +1,49 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Jaldi&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.card{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #002997;
+    width: 328px;
+    height: 601px;
+    border-radius: 22px;
+    gap: 20px;
+   
+
+}
+.card h1{
+
+
+    color: aliceblue;
+    font-size: 32px;
+    font-family: 'Jaldi', sans-serif;
+  
+}
+.card p{
+    font-family: 'Jacques Francois', serif;
+    color: aliceblue;
+    line-height: 21px;
+    margin: 28px 40px;
+   
+}
